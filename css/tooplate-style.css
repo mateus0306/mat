@@ -18,7 +18,12 @@ body {
 .full-screen {
   padding: 8rem 0;
 }
+.imagem {
+  width: 100%; /* Imagens ocupam 100% da largura do contêiner */
+  height: auto; /* Altura ajustada automaticamente para manter a proporção */
+  margin: 10px; /* Espaçamento entre as imagens */
 
+}
 .small-text {
   color: #5b5b5b;
   font-size: 14px;
@@ -27,6 +32,7 @@ body {
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
+
 
 ul {
   margin: 0;
